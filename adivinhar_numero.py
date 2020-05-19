@@ -2,7 +2,7 @@ import os
 import platform
 
 def limpar():
-    if platform.system == 'Windows': 
+    if platform.system() == 'Windows': 
         os.system('cls')
     else:
         os.system('clear')
