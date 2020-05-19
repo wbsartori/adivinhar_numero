@@ -23,7 +23,7 @@ def jogar():
             print('Numero é maior')
         
         elif( opcao == numero):
-            print('Acertou ! o número é ' , numero)
+            print(f'Acertou Mizzeeráviii !! O numero era {numero} mesmo !' )
             op = str(input('Deseja Jogar novamente ? (Sim)/(Não) '))
             print('')
             if(op == 'Sim' or op == 'sim' or op == 's' or op == 'S'):                
