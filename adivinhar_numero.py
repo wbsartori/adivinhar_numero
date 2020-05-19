@@ -1,7 +1,11 @@
 import os
+import platform
 
 def limpar():
-    os.system('cls')
+    if platform.system == 'Windows': 
+        os.system('cls')
+    else:
+        os.system('clear')
 
 def jogar():   
 
